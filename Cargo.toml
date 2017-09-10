@@ -1,0 +1,12 @@
+[package]
+name = "thingy"
+version = "0.1.0"
+authors = ["Daniel P. Clark <6ftdan@gmail.com>"]
+
+[lib]
+name = "thingy"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.30"
+ruru = "0.9"
